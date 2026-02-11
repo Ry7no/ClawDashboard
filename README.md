@@ -6,6 +6,19 @@
 
 ## 🚀 快速開始
 
+### 📥 安裝與 Clone
+
+將專案 Clone 到 `.openclaw/workspace` 目錄下：
+
+```bash
+mkdir -p .openclaw/workspace
+cd .openclaw/workspace
+git clone git@github.com:Ry7no/ClawDashboard.git
+cd ClawDashboard
+```
+
+### ⚡ 一行啟動
+
 ### ⚡ 一行啟動
 
 專案內建自動化啟動腳本，首次運行會自動安裝依賴：
@@ -48,13 +61,13 @@ npm run dev
 
 ```mermaid
 graph TD
-    Client[Frontend (React/Vite)] <-->|API| Server[Backend (Express)]
-    Server <-->|SQL| DB[(SQLite: bot.db)]
-    Server <-->|File System| Docs[Docs Directory]
+    Client["Frontend (React/Vite)"] <-->|API| Server["Backend (Express)"]
+    Server <-->|SQL| DB[("SQLite: bot.db")]
+    Server <-->|File System| Docs["Docs Directory"]
     
     subgraph Core Logic
-    Server -- Status Flow --> Status[User Status]
-    Server -- Webhook --> Task[Task Management]
+    Server -- Status Flow --> Status["User Status"]
+    Server -- Webhook --> Task["Task Management"]
     end
 ```
 
