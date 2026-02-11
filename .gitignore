@@ -1,0 +1,11 @@
+node_modules
+.DS_Store
+dist
+.env
+backend/docs/openclaw-config-backup.json
+backend/docs/*.json
+backend/docs/*.pdf
+backend/bot.db
+backend/logs/*.log
+*.log
+.vscode

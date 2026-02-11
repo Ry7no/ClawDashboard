@@ -1,0 +1,19 @@
+# Environment variables
+.env
+
+# Database
+*.db
+*.sqlite
+
+# User Generated Documents
+docs/*.md
+docs/*.pdf
+!docs/README.md
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependencies
+node_modules/
