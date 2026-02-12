@@ -1,4 +1,4 @@
-# Claw Dashboard
+# 🦞 Claw Dashboard
 
 一個簡潔、高效的本地 AI Agent 儀表板，整合了任務管理、狀態追蹤與自動化文件同步功能。
 
